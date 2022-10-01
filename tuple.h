@@ -1,5 +1,4 @@
 #pragma once
-#pragma once
 namespace tuplib {
 	template<class T, class... Us>
 	class tuple : protected tuple<Us...> {
